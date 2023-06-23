@@ -1,14 +1,6 @@
-### Strapi ###
-
-.env
-license.txt
-exports
-*.cache
-build
-.strapi-updater.json
-
 ############################
 # OS X
+############################
 
 .DS_Store
 .AppleDouble
@@ -18,12 +10,17 @@ Icon
 .Trashes
 ._*
 
+
+############################
 # Linux
+############################
 
 *~
 
 
+############################
 # Windows
+############################
 
 Thumbs.db
 ehthumbs.db
@@ -35,7 +32,9 @@ $RECYCLE.BIN/
 *.msp
 
 
+############################
 # Packages
+############################
 
 *.7z
 *.csv
@@ -61,7 +60,10 @@ $RECYCLE.BIN/
 *.out
 *.pid
 
+
+############################
 # Logs and databases
+############################
 
 .tmp
 *.log
@@ -70,7 +72,9 @@ $RECYCLE.BIN/
 *.sqlite3
 
 
+############################
 # Misc.
+############################
 
 *#
 ssl
@@ -79,7 +83,9 @@ nbproject
 public/uploads/*
 !public/uploads/.gitkeep
 
+############################
 # Node.js
+############################
 
 lib-cov
 lcov.info
@@ -89,7 +95,21 @@ results
 node_modules
 .node_history
 
+############################
 # Tests
+############################
 
 testApp
 coverage
+
+############################
+# Strapi
+############################
+
+.env
+license.txt
+exports
+*.cache
+dist
+build
+.strapi-updater.json

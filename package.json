@@ -1,5 +1,5 @@
 {
-  "name": "ueco-ecommerce-api",
+  "name": "my-project",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,7 +20,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "ef670f1a-dfde-47b4-929d-984da253edb8"
+    "uuid": "efece65e-059e-4e2c-b276-cf2954d8eb90"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
