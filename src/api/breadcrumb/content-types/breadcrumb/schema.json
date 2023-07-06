@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "breadcrumbs",
+  "info": {
+    "singularName": "breadcrumb",
+    "pluralName": "breadcrumbs",
+    "displayName": "Breadcrumb"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

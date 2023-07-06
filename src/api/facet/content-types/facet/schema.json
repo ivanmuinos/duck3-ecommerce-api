@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facets",
+  "info": {
+    "singularName": "facet",
+    "pluralName": "facets",
+    "displayName": "Facet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "ui": {
+      "type": "string"
+    },
+    "options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::option.option"
+    }
+  }
+}

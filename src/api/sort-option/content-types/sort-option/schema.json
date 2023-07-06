@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sort_options",
+  "info": {
+    "singularName": "sort-option",
+    "pluralName": "sort-options",
+    "displayName": "SortOption"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    }
+  }
+}

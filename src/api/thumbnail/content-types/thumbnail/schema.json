@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thumbnails",
+  "info": {
+    "singularName": "thumbnail",
+    "pluralName": "thumbnails",
+    "displayName": "thumbnail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "magnify": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::magnify.magnify"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_datas",
+  "info": {
+    "singularName": "app-data",
+    "pluralName": "app-datas",
+    "displayName": "AppData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::menu.menu"
+    },
+    "tabs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tab.tab"
+    }
+  }
+}

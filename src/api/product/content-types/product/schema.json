@@ -23,7 +23,7 @@
     "name": {
       "type": "string"
     },
-    "number": {
+    "price": {
       "required": true,
       "unique": true,
       "type": "decimal"
@@ -39,6 +39,26 @@
     },
     "specs": {
       "type": "richtext"
+    },
+    "thumbnail": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::thumbnail.thumbnail"
+    },
+    "media": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::media.media"
+    },
+    "sizes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::size.size"
+    },
+    "colors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::color.color"
     }
   }
 }

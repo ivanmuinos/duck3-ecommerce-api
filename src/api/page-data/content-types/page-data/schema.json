@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_datas",
+  "info": {
+    "singularName": "page-data",
+    "pluralName": "page-datas",
+    "displayName": "PageData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "page": {
+      "type": "integer"
+    },
+    "totalPages": {
+      "type": "integer"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    },
+    "sort_options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sort-option.sort-option"
+    },
+    "facets": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::facet.facet"
+    },
+    "breadcrumbs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::breadcrumb.breadcrumb"
+    },
+    "id_page_data": {
+      "type": "string"
+    }
+  }
+}
